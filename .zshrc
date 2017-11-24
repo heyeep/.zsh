@@ -24,3 +24,5 @@ export PATH=$COCOS_X_ROOT:$PATH
 # Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
 export COCOS_TEMPLATES_ROOT=/Users/hiep/Programming/cocos2d-x/templates
 export PATH=$COCOS_TEMPLATES_ROOT:$PATH
+export PATH="/usr/local/opt/gpg-agent/bin:$PATH"
+export PATH="/usr/local/opt/gpg-agent/bin:$PATH"
