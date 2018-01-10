@@ -17,7 +17,10 @@ export PAGER='less'
 # CTAGS Sorting in VIM/Emacs is better behaved with this in place
 export LC_COLLATE=C
 # https://stackoverflow.com/questions/11287564/getting-sed-error-illegal-byte-sequence-in-bash
-export LC_ALL=C
+#export LC_ALL=C
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
 
 export EDITOR=/usr/local/bin/mvim
 
