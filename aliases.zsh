@@ -1,7 +1,7 @@
 # -------------------------------------------------------------------
 # use nocorrect alias to prevent auto correct from "fixing" these
 # -------------------------------------------------------------------
-#alias foobar='nocorrect foobar'
+# alias foobar='nocorrect foobar'
 # -------------------------------------------------------------------
 # directory movement
 # -------------------------------------------------------------------
@@ -115,15 +115,6 @@ alias gsh="git shortlog | grep -E '^[ ]+\w+' | wc -l"
 alias gu="git shortlog | grep -E '^[^ ]'"
 
 # -------------------------------------------------------------------
-# WH
+# Dotfiles
 # -------------------------------------------------------------------
-alias redis_start='${EM_REDIS_HOME}/redis-server.sh start'
-
-# -------------------------------------------------------------------
-# TB
-# -------------------------------------------------------------------
-function adbreset() {
-    adb kill-server
-    adb start-server
-    adb devices
-}
+alias dotfile='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
