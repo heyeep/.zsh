@@ -1,6 +1,11 @@
-ZSH_THEME="geometry/geometry"
-#ZSH_THEME="agnoster"
-#ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="lambda-mod"
+# ZSH_THEME="blank"
+# ZSH_THEME="nothing"
+# ZSH_THEME="lambda-gitster"
+# ZSH_THEME="gitster"
+# ZSH_THEME="geometry/geometry"
+# ZSH_THEME="agnoster"
+# ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
