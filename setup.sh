@@ -16,4 +16,4 @@ echo "linking $HOME/.zsh/.zshrc to $HOME/.zshrc"
 ln -s $HOME/.zsh/.zshrc $HOME/.zshrc
 echo "linking $HOME/.zsh/.zshenv to $HOME/.zshenv"
 ln -s $HOME/.zsh/.zshenv $HOME/.zshenv
-echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+echo "alias dotfile='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
