@@ -57,3 +57,9 @@ if [[ $IS_MAC -eq 1 ]]; then
     osx_paths=$llvm_bin
     export PATH=$osx_paths:$PATH
 fi
+
+# Golang
+export GOPATH=$HOME/Programming/go
+
+# https://stackoverflow.com/questions/18149601/go-install-always-fails-no-install-directory-outside-gopath
+export GOBIN=$GOPATH/bin
