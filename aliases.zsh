@@ -121,3 +121,6 @@ alias dotfile='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Python
 alias python='/usr/bin/python2.7'
+
+# Go
+alias golint='$GOBIN/golint'

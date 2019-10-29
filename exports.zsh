@@ -59,12 +59,29 @@ if [[ $IS_MAC -eq 1 ]]; then
 fi
 
 # Golang
-export GOPATH=$HOME/Programming/go
-
 # https://stackoverflow.com/questions/18149601/go-install-always-fails-no-install-directory-outside-gopath
+export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Android
+export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export ANDROID_AVD_HOME=$HOME/.android/avd
+
+# Cocos
+# Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
+export COCOS_CONSOLE_ROOT=/Users/hiep/Programming/cocos2d-x/tools/cocos2d-console/bin
+export PATH=$COCOS_CONSOLE_ROOT:$PATH
+
+# Add environment variable COCOS_X_ROOT for cocos2d-x
+export COCOS_X_ROOT=/Users/hiep/Programming
+export PATH=$COCOS_X_ROOT:$PATH
+
+# Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
+export COCOS_TEMPLATES_ROOT=/Users/hiep/Programming/cocos2d-x/templates
+export PATH=$COCOS_TEMPLATES_ROOT:$PATH
