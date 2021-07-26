@@ -120,7 +120,11 @@ alias gu="git shortlog | grep -E '^[^ ]'"
 alias dotfile='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Python
-alias python='/usr/bin/python2.7'
+alias python=/usr/local/bin/python3
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
 
 # Go
 alias golint='$GOBIN/golint'
