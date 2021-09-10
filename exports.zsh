@@ -61,7 +61,7 @@ fi
 # Golang
 # https://stackoverflow.com/questions/18149601/go-install-always-fails-no-install-directory-outside-gopath
 export GOPATH=$HOME/go
-export GOBIN=$GOPATH/bin
+export GOBIN=$GOROOT/bin
 
 # NVM
 export NVM_DIR="$HOME/.nvm"

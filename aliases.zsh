@@ -80,7 +80,6 @@ if [[ $IS_MAC -eq 1 ]]; then
     alias vi='vim -u NONE'
 fi
 
-alias jformat='python -m json.tool'
 # -------------------------------------------------------------------
 # Git
 # -------------------------------------------------------------------
@@ -128,3 +127,6 @@ fi
 
 # Go
 alias golint='$GOBIN/golint'
+
+# mongod
+#alias mongod='~/Programming/mongo/mongod'
