@@ -88,3 +88,9 @@ export PATH=$COCOS_TEMPLATES_ROOT:$PATH
 
 # Java
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
+# Ruby
+export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/shims:$PATH"
+
+export PATH=/Applications/Postgres.app/Contents/Versions/13/bin/:$PATH
