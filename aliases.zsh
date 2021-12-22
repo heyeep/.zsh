@@ -130,3 +130,9 @@ alias golint='$GOBIN/golint'
 
 # mongod
 #alias mongod='~/Programming/mongo/mongod'
+
+# Ruby
+alias bs='bundle exec rails s'
+alias be='bundle exec'
+alias yc='yarn test:cypress'
+alias yo='yarn cypress:open'
