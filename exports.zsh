@@ -93,4 +93,17 @@ export PATH="/usr/local/opt/openjdk/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.rbenv/shims:$PATH"
 
-export PATH=/Applications/Postgres.app/Contents/Versions/13/bin/:$PATH
+
+export DISABLE_SPRING=true
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+# postgresql
+export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
+# brew
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@13/lib/pkgconfig"
+export PGDATA="/Users/hiep/Library/Application Support/Postgres/var-13"
+export PATH="/Users/hiep/.gem/ruby/3.2.0/bin:$PATH"
