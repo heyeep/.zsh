@@ -98,12 +98,22 @@ export DISABLE_SPRING=true
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 # postgresql
-export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 # brew
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
-export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@13/lib/pkgconfig"
-export PGDATA="/Users/hiep/Library/Application Support/Postgres/var-13"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@16/lib/pkgconfig"
+export PGDATA="/Users/hiep/Library/Application Support/Postgres/var-16"
 export PATH="/Users/hiep/.gem/ruby/3.2.0/bin:$PATH"
+
+export NPM_AUTH_TOKEN='ea631ca1-983b-4488-95c0-4ca476b71dc7'
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/Cellar/nvm/0.39.7/nvm.sh" ] && \. "/opt/homebrew/Cellar/nvm/0.39.7/nvm.sh"
+[ -s "/opt/homebrew/Cellar/nvm/0.39.7/etc/bash_completion" ] && \. "/opt/homebrew/Cellar/nvm/0.39.7/etc/bash_completion"
+
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh

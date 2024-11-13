@@ -104,7 +104,6 @@ alias gv='git log --pretty=format:'%s' | cut -d " " -f 1 | sort | uniq -c | sort
 
 # leverage aliases from ~/.gitconfig
 alias gh='git hist'
-alias gt='git today'
 
 # curiosities
 # gsh shows the number of commits for the current repos for all developers
@@ -138,3 +137,5 @@ alias yc='yarn test:cypress'
 alias yo='yarn cypress:open'
 alias roast='pronto run -c origin/main'
 alias rrspec='rake parallel:spec'
+
+alias pg_dump14='/opt/homebrew/opt/postgresql@14/bin/pg_dump '
